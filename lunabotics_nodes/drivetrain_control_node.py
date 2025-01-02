@@ -9,7 +9,7 @@ class DrivetrainControlNode(Node):
 
         # brain's commands
         self.subscription = self.create_subscription(
-            Twist,            # or your custom DriveCommand
+            Twist,            # twist in plce of custom driving command, tbd(?)
             '/drivetrain',
             self.drivetrain_callback,
             10)
