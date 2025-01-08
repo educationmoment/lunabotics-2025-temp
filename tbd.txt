@@ -1,12 +1,17 @@
 1. Message Types
 
 If we have custom .msg files (e.g., special drive commands, scoop commands, or status messages), we need to import them.
+CS- To-do: Set up scoop to subscribe to DutyCycleOutput 
+CS- We need to set up actions for scooping, dumping, etc. 
 
 2. Hardware-Specific Motor Control
 
 my code only does drivetrain_control_node or scoop_control_node shows a stub method like send_to_sparkmax(left_speed, right_speed).
 
 we must implement real calls to your motor controllers,via CAN (yes we CAN!)
+CS- need a launch file in cpp that flashes all presets onto the SparkMAX motor controllers
+CS- Add changes to drivetrain.cpp and scoop.cpp that allow for sparkmax control with duty cycle
+CS - Later need to add changes to allow for positional and velocity control
 
 
 3. Camera Input & Processing
@@ -49,7 +54,7 @@ TF transforms, map server, localization, etc.
 7. Scoop Logic
 
 This is a skeleton ScoopControlNode. We  need to define how you command the scoop (e.g., position vs. speed) and what sensors or limit switches are read.
-
+CS -
 
 8. status tracking
 
