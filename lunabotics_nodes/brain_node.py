@@ -42,6 +42,7 @@ class BrainNode(Node):
             manual_twist.linear.x = msg.axes[1]
             manual_twist.angular.z = msg.axes[0]
             self.drivetrain_pub.publish(manual_twist)
+            self.get_logger().info('herrow drive train :3')
 
     def nav_cmd_vel_callback(self, twist_msg: Twist):
         # If in auto mode, pass it through:
