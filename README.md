@@ -4,7 +4,7 @@ How to Launch:
 # clone repo
 git clone https://github.com/educationmoment/lunabotics-2025-temp.git
 
-cd my_ros2_ws
+cd lunabotics_ros2_ws
 
 # source ros 2 environemnt
 
@@ -14,10 +14,10 @@ source /opt/ros/humble/setup.bash
 # build ros2
 
 
-cd my_ros2_ws
+cd lunabotics_ros2_ws
 
 
-colcon build
+colcon build 
 
 # source nodes
 
@@ -32,7 +32,7 @@ ros2 launch lunabotics_nodes lunabotics.launch.py
 
 to install web gui dependencies:
 
-cd my_ros2_ws/src/lunabotics_webgui
+cd lunabotics_ros2_ws/src/lunabotics_webgui
 
 # install rosbridge:
 
