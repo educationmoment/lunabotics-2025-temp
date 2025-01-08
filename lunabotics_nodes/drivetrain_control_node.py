@@ -18,12 +18,13 @@ class DrivetrainControlNode(Node):
         # self.status_pub = self.create_publisher(std_msgs.msg.String, '/drivetrain_status', 10)
 
     def drivetrain_callback(self, twist_msg: Twist):
+        self.get_logger().info(f'drivtrained recived ur msg :3: linear={msg.linear.x}, angular={msg.angular.z}')
         linear_x = twist_msg.linear.x
         angular_z = twist_msg.angular.z
         
         left_speed = linear_x - angular_z
         right_speed = linear_x + angular_z
-
+        
         # duty cycle vs velocity, tbd
         # self.send_to_sparkmax(left_speed, right_speed)
 
