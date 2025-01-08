@@ -1,0 +1,44 @@
+[0.024s] Invoking command in '/home/catherineschuch/lunabotics_ws/build/webgui_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ws/src/webgui_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ws/install/webgui_pkg
+[0.371s] -- The C compiler identification is GNU 11.4.0
+[1.450s] -- The CXX compiler identification is GNU 11.4.0
+[2.120s] -- Detecting C compiler ABI info
+[2.453s] -- Detecting C compiler ABI info - done
+[2.460s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.463s] -- Detecting C compile features
+[2.463s] -- Detecting C compile features - done
+[2.467s] -- Detecting CXX compiler ABI info
+[2.808s] -- Detecting CXX compiler ABI info - done
+[2.816s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.816s] -- Detecting CXX compile features
+[2.817s] -- Detecting CXX compile features - done
+[2.823s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.987s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.065s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.092s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.177s] -- Added test 'lint_cmake' to check CMake code style
+[3.178s] -- Added test 'xmllint' to check XML markup files
+[3.180s] -- Configuring done
+[3.183s] -- Generating done
+[3.184s] -- Build files have been written to: /home/catherineschuch/lunabotics_ws/build/webgui_pkg
+[3.189s] Invoked command in '/home/catherineschuch/lunabotics_ws/build/webgui_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ws/src/webgui_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ws/install/webgui_pkg
+[3.194s] Invoking command in '/home/catherineschuch/lunabotics_ws/build/webgui_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ws/build/webgui_pkg -- -j16 -l16
+[3.227s] Invoked command in '/home/catherineschuch/lunabotics_ws/build/webgui_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ws/build/webgui_pkg -- -j16 -l16
+[3.235s] Invoking command in '/home/catherineschuch/lunabotics_ws/build/webgui_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ws/build/webgui_pkg
+[3.241s] -- Install configuration: ""
+[3.241s] -- Execute custom install script
+[3.242s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/ament_index/resource_index/package_run_dependencies/webgui_pkg
+[3.251s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/ament_index/resource_index/parent_prefix_path/webgui_pkg
+[3.261s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/environment/ament_prefix_path.sh
+[3.269s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/environment/ament_prefix_path.dsv
+[3.278s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/environment/path.sh
+[3.287s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/environment/path.dsv
+[3.294s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/local_setup.bash
+[3.307s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/local_setup.sh
+[3.318s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/local_setup.zsh
+[3.334s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/local_setup.dsv
+[3.346s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/package.dsv
+[3.364s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/ament_index/resource_index/packages/webgui_pkg
+[3.374s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/cmake/webgui_pkgConfig.cmake
+[3.382s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/cmake/webgui_pkgConfig-version.cmake
+[3.395s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/webgui_pkg/share/webgui_pkg/package.xml
+[3.408s] Invoked command in '/home/catherineschuch/lunabotics_ws/build/webgui_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ws/build/webgui_pkg

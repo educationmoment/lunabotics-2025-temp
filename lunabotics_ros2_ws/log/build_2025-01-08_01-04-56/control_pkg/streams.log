@@ -1,0 +1,93 @@
+[0.398s] Invoking command in '/home/catherineschuch/lunabotics_ws/build/control_pkg': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ws/src/control_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ws/install/control_pkg
+[0.973s] -- The C compiler identification is GNU 11.4.0
+[3.298s] -- The CXX compiler identification is GNU 11.4.0
+[4.985s] -- Detecting C compiler ABI info
+[5.389s] -- Detecting C compiler ABI info - done
+[5.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.405s] -- Detecting C compile features
+[5.406s] -- Detecting C compile features - done
+[5.410s] -- Detecting CXX compiler ABI info
+[5.834s] -- Detecting CXX compiler ABI info - done
+[5.841s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.842s] -- Detecting CXX compile features
+[5.842s] -- Detecting CXX compile features - done
+[5.863s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.034s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.115s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.167s] -- Found interfaces_pkg: 0.0.0 (/home/catherineschuch/lunabotics_ws/install/interfaces_pkg/share/interfaces_pkg/cmake)
+[6.758s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.766s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.779s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.802s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.827s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.846s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[6.959s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.964s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.628s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[19.124s] -- Found FastRTPS: /opt/ros/humble/include  
+[30.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.317s] -- Looking for pthread.h
+[30.695s] -- Looking for pthread.h - found
+[30.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[31.140s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[31.142s] -- Found Threads: TRUE  
+[31.237s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[31.332s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[31.433s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[31.433s] -- Configured cppcheck include dirs: 
+[31.433s] -- Configured cppcheck exclude dirs and/or files: 
+[31.434s] -- Added test 'flake8' to check Python code syntax and style conventions
+[31.436s] -- Added test 'lint_cmake' to check CMake code style
+[31.438s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[31.439s] -- Added test 'uncrustify' to check C / C++ code style
+[31.439s] -- Configured uncrustify additional arguments: 
+[31.441s] -- Added test 'xmllint' to check XML markup files
+[31.444s] -- Configuring done
+[31.455s] -- Generating done
+[31.459s] -- Build files have been written to: /home/catherineschuch/lunabotics_ws/build/control_pkg
+[31.470s] Invoked command in '/home/catherineschuch/lunabotics_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ws/src/control_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ws/install/control_pkg
+[31.472s] Invoking command in '/home/catherineschuch/lunabotics_ws/build/control_pkg': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ws/build/control_pkg -- -j16 -l16
+[31.514s] [ 50%] [32mBuilding CXX object CMakeFiles/drivetrain.dir/src/drivetrain.cpp.o[0m
+[31.521s] [ 50%] Built target ament_cmake_python_symlink_control_pkg
+[31.768s] running egg_info
+[31.770s] creating control_pkg.egg-info
+[31.770s] writing control_pkg.egg-info/PKG-INFO
+[31.770s] writing dependency_links to control_pkg.egg-info/dependency_links.txt
+[31.770s] writing top-level names to control_pkg.egg-info/top_level.txt
+[31.770s] writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+[31.773s] reading manifest file 'control_pkg.egg-info/SOURCES.txt'
+[31.774s] writing manifest file 'control_pkg.egg-info/SOURCES.txt'
+[31.798s] [ 50%] Built target ament_cmake_python_build_control_pkg_egg
+[40.242s] [100%] [32m[1mLinking CXX executable drivetrain[0m
+[40.917s] [100%] Built target drivetrain
+[40.929s] Invoked command in '/home/catherineschuch/lunabotics_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ws/build/control_pkg -- -j16 -l16
+[40.939s] Invoking command in '/home/catherineschuch/lunabotics_ws/build/control_pkg': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ws/build/control_pkg
+[40.944s] -- Install configuration: ""
+[40.944s] -- Execute custom install script
+[40.945s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/lib/control_pkg/drivetrain
+[40.953s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/pythonpath.sh
+[40.961s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/pythonpath.dsv
+[40.969s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[40.976s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[40.983s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[40.991s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[41.001s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg/__init__.py
+[41.009s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/lib/control_pkg/testcontrol.py
+[41.017s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg
+[41.024s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg
+[41.031s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/ament_prefix_path.sh
+[41.038s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/ament_prefix_path.dsv
+[41.045s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/path.sh
+[41.052s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/path.dsv
+[41.061s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/local_setup.bash
+[41.068s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/local_setup.sh
+[41.075s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/local_setup.zsh
+[41.083s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/local_setup.dsv
+[41.090s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/package.dsv
+[41.098s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/ament_index/resource_index/packages/control_pkg
+[41.106s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/cmake/control_pkgConfig.cmake
+[41.112s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/cmake/control_pkgConfig-version.cmake
+[41.120s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/package.xml
+[41.164s] Listing '/home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg'...
+[41.165s] Compiling '/home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg/__init__.py'...
+[41.173s] Invoked command in '/home/catherineschuch/lunabotics_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ws/build/control_pkg

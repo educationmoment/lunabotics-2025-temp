@@ -1,0 +1,44 @@
+[0.021s] Invoking command in '/home/catherineschuch/lunabotics_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ws/src/navigation_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ws/install/navigation_pkg
+[0.377s] -- The C compiler identification is GNU 11.4.0
+[1.456s] -- The CXX compiler identification is GNU 11.4.0
+[2.372s] -- Detecting C compiler ABI info
+[2.692s] -- Detecting C compiler ABI info - done
+[2.699s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.699s] -- Detecting C compile features
+[2.700s] -- Detecting C compile features - done
+[2.704s] -- Detecting CXX compiler ABI info
+[3.041s] -- Detecting CXX compiler ABI info - done
+[3.048s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.049s] -- Detecting CXX compile features
+[3.050s] -- Detecting CXX compile features - done
+[3.052s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.213s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.279s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.300s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.419s] -- Added test 'lint_cmake' to check CMake code style
+[3.420s] -- Added test 'xmllint' to check XML markup files
+[3.423s] -- Configuring done
+[3.425s] -- Generating done
+[3.427s] -- Build files have been written to: /home/catherineschuch/lunabotics_ws/build/navigation_pkg
+[3.436s] Invoked command in '/home/catherineschuch/lunabotics_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/catherineschuch/lunabotics_ws/src/navigation_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ws/install/navigation_pkg
+[3.437s] Invoking command in '/home/catherineschuch/lunabotics_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ws/build/navigation_pkg -- -j16 -l16
+[3.470s] Invoked command in '/home/catherineschuch/lunabotics_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/catherineschuch/lunabotics_ws/build/navigation_pkg -- -j16 -l16
+[3.472s] Invoking command in '/home/catherineschuch/lunabotics_ws/build/navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ws/build/navigation_pkg
+[3.478s] -- Install configuration: ""
+[3.478s] -- Execute custom install script
+[3.479s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/ament_index/resource_index/package_run_dependencies/navigation_pkg
+[3.488s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/ament_index/resource_index/parent_prefix_path/navigation_pkg
+[3.496s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.sh
+[3.504s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.dsv
+[3.511s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/environment/path.sh
+[3.520s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/environment/path.dsv
+[3.528s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/local_setup.bash
+[3.539s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/local_setup.sh
+[3.547s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/local_setup.zsh
+[3.555s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/local_setup.dsv
+[3.562s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/package.dsv
+[3.569s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/ament_index/resource_index/packages/navigation_pkg
+[3.577s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig.cmake
+[3.584s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig-version.cmake
+[3.590s] -- Symlinking: /home/catherineschuch/lunabotics_ws/install/navigation_pkg/share/navigation_pkg/package.xml
+[3.601s] Invoked command in '/home/catherineschuch/lunabotics_ws/build/navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/catherineschuch/lunabotics_ws/build/navigation_pkg

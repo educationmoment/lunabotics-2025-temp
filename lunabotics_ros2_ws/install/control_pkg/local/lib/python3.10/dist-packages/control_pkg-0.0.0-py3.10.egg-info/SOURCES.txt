@@ -1,0 +1,1 @@
+/home/catherineschuch/lunabotics_ws/build/control_pkg/ament_cmake_python/control_pkg/control_pkg.egg-info/SOURCES.txt

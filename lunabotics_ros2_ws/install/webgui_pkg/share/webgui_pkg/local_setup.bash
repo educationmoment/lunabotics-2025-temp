@@ -1,0 +1,1 @@
+/home/catherineschuch/lunabotics_ws/build/webgui_pkg/ament_cmake_environment_hooks/local_setup.bash

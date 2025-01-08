@@ -1,0 +1,416 @@
+[0.000000] (-) TimerEvent: {}
+[0.000913] (-) JobUnselected: {'identifier': 'interfaces_pkg'}
+[0.001037] (-) JobUnselected: {'identifier': 'navigation_pkg'}
+[0.001083] (-) JobUnselected: {'identifier': 'webgui_pkg'}
+[0.001128] (control_pkg) JobQueued: {'identifier': 'control_pkg', 'dependencies': OrderedDict([('interfaces_pkg', '/home/catherineschuch/lunabotics_ws/install/interfaces_pkg')])}
+[0.001177] (control_pkg) JobStarted: {'identifier': 'control_pkg'}
+[0.099605] (-) TimerEvent: {}
+[0.200052] (-) TimerEvent: {}
+[0.250726] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'cmake'}
+[0.253745] (control_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/catherineschuch/lunabotics_ws/src/control_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/catherineschuch/lunabotics_ws/install/control_pkg'], 'cwd': '/home/catherineschuch/lunabotics_ws/build/control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'catherineschuch'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/catherineschuch/lunabotics_ws/install/interfaces_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/catherineschuch'), ('OLDPWD', '/home/catherineschuch/lunabotics_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/catherineschuch/lunabotics_ws/install:/home/catherineschuch/lunabotics-2025-temp/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'catherineschuch'), ('NAME', 'CSchuLaptop'), ('WSL_INTEROP', '/run/WSL/12468_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/catherineschuch/lunabotics_ws/install/control_pkg/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/cathe/AppData/Local/Temp/Mxt242/bin:/mnt/c/windows/:/mnt/c/windows/system32/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/Keysight/IO Libraries Suite/bin:/mnt/c/Program Files/IVI Foundation/VISA/Win64/ktvisa:/mnt/c/Program Files/IVI Foundation/VISA/Win64/bin:/mnt/c/Program Files (x86)/Keysight/IO Libraries Suite/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/ktvisa:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/winnt/agvisa:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/cathe/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/cathe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/cathe/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/cathe/AppData/Local/Box/Box Edit/:/mnt/c/windows/sysnative/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '127.0.0.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/catherineschuch/lunabotics_ws/build/control_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/catherineschuch/lunabotics_ws/install/interfaces_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.300212] (-) TimerEvent: {}
+[0.400618] (-) TimerEvent: {}
+[0.501085] (-) TimerEvent: {}
+[0.576018] (control_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.601229] (-) TimerEvent: {}
+[0.701669] (-) TimerEvent: {}
+[0.802280] (-) TimerEvent: {}
+[0.902820] (-) TimerEvent: {}
+[1.003286] (-) TimerEvent: {}
+[1.103719] (-) TimerEvent: {}
+[1.204241] (-) TimerEvent: {}
+[1.304850] (-) TimerEvent: {}
+[1.405369] (-) TimerEvent: {}
+[1.505886] (-) TimerEvent: {}
+[1.606375] (-) TimerEvent: {}
+[1.706795] (-) TimerEvent: {}
+[1.807272] (-) TimerEvent: {}
+[1.907759] (-) TimerEvent: {}
+[1.972643] (control_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.007921] (-) TimerEvent: {}
+[2.108301] (-) TimerEvent: {}
+[2.208821] (-) TimerEvent: {}
+[2.309377] (-) TimerEvent: {}
+[2.409965] (-) TimerEvent: {}
+[2.510398] (-) TimerEvent: {}
+[2.610879] (-) TimerEvent: {}
+[2.711286] (-) TimerEvent: {}
+[2.811743] (-) TimerEvent: {}
+[2.857940] (control_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.911864] (-) TimerEvent: {}
+[3.012210] (-) TimerEvent: {}
+[3.112608] (-) TimerEvent: {}
+[3.184386] (control_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.192385] (control_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.194255] (control_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.195417] (control_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.200955] (control_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.213106] (-) TimerEvent: {}
+[3.313462] (-) TimerEvent: {}
+[3.413946] (-) TimerEvent: {}
+[3.448884] (control_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.456074] (control_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.456463] (control_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.456879] (control_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.476287] (control_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.514082] (-) TimerEvent: {}
+[3.614450] (-) TimerEvent: {}
+[3.645910] (control_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.714573] (-) TimerEvent: {}
+[3.731651] (control_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.778033] (control_pkg) StdoutLine: {'line': b'-- Found interfaces_pkg: 0.0.0 (/home/catherineschuch/lunabotics_ws/install/interfaces_pkg/share/interfaces_pkg/cmake)\n'}
+[3.814756] (-) TimerEvent: {}
+[3.915222] (-) TimerEvent: {}
+[4.015649] (-) TimerEvent: {}
+[4.116001] (-) TimerEvent: {}
+[4.146193] (control_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.153241] (control_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.168249] (control_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.189451] (control_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.216194] (-) TimerEvent: {}
+[4.217431] (control_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.238956] (control_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.316327] (-) TimerEvent: {}
+[4.327363] (control_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.332158] (control_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.416496] (-) TimerEvent: {}
+[4.516913] (-) TimerEvent: {}
+[4.617311] (-) TimerEvent: {}
+[4.717790] (-) TimerEvent: {}
+[4.818133] (-) TimerEvent: {}
+[4.918438] (-) TimerEvent: {}
+[5.018837] (-) TimerEvent: {}
+[5.119215] (-) TimerEvent: {}
+[5.219695] (-) TimerEvent: {}
+[5.320092] (-) TimerEvent: {}
+[5.420576] (-) TimerEvent: {}
+[5.520962] (-) TimerEvent: {}
+[5.621316] (-) TimerEvent: {}
+[5.721715] (-) TimerEvent: {}
+[5.822111] (-) TimerEvent: {}
+[5.922535] (-) TimerEvent: {}
+[6.023032] (-) TimerEvent: {}
+[6.123490] (-) TimerEvent: {}
+[6.224173] (-) TimerEvent: {}
+[6.324820] (-) TimerEvent: {}
+[6.425320] (-) TimerEvent: {}
+[6.525734] (-) TimerEvent: {}
+[6.626129] (-) TimerEvent: {}
+[6.726508] (-) TimerEvent: {}
+[6.826878] (-) TimerEvent: {}
+[6.927295] (-) TimerEvent: {}
+[7.027724] (-) TimerEvent: {}
+[7.128088] (-) TimerEvent: {}
+[7.228499] (-) TimerEvent: {}
+[7.329015] (-) TimerEvent: {}
+[7.429395] (-) TimerEvent: {}
+[7.529867] (-) TimerEvent: {}
+[7.630380] (-) TimerEvent: {}
+[7.730734] (-) TimerEvent: {}
+[7.831143] (-) TimerEvent: {}
+[7.931508] (-) TimerEvent: {}
+[8.031899] (-) TimerEvent: {}
+[8.132288] (-) TimerEvent: {}
+[8.160560] (control_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.232570] (-) TimerEvent: {}
+[8.332941] (-) TimerEvent: {}
+[8.433375] (-) TimerEvent: {}
+[8.533814] (-) TimerEvent: {}
+[8.634168] (-) TimerEvent: {}
+[8.734573] (-) TimerEvent: {}
+[8.835066] (-) TimerEvent: {}
+[8.935431] (-) TimerEvent: {}
+[9.035876] (-) TimerEvent: {}
+[9.136213] (-) TimerEvent: {}
+[9.236633] (-) TimerEvent: {}
+[9.337097] (-) TimerEvent: {}
+[9.437454] (-) TimerEvent: {}
+[9.537799] (-) TimerEvent: {}
+[9.638192] (-) TimerEvent: {}
+[9.738577] (-) TimerEvent: {}
+[9.838987] (-) TimerEvent: {}
+[9.939396] (-) TimerEvent: {}
+[10.039829] (-) TimerEvent: {}
+[10.140231] (-) TimerEvent: {}
+[10.240745] (-) TimerEvent: {}
+[10.341257] (-) TimerEvent: {}
+[10.441772] (-) TimerEvent: {}
+[10.542178] (-) TimerEvent: {}
+[10.642570] (-) TimerEvent: {}
+[10.743037] (-) TimerEvent: {}
+[10.843486] (-) TimerEvent: {}
+[10.944138] (-) TimerEvent: {}
+[11.044538] (-) TimerEvent: {}
+[11.145013] (-) TimerEvent: {}
+[11.245334] (-) TimerEvent: {}
+[11.345819] (-) TimerEvent: {}
+[11.446477] (-) TimerEvent: {}
+[11.546874] (-) TimerEvent: {}
+[11.647249] (-) TimerEvent: {}
+[11.747639] (-) TimerEvent: {}
+[11.848027] (-) TimerEvent: {}
+[11.882042] (control_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.948352] (-) TimerEvent: {}
+[12.048803] (-) TimerEvent: {}
+[12.149383] (-) TimerEvent: {}
+[12.249944] (-) TimerEvent: {}
+[12.350401] (-) TimerEvent: {}
+[12.450798] (-) TimerEvent: {}
+[12.551116] (-) TimerEvent: {}
+[12.651501] (-) TimerEvent: {}
+[12.751849] (-) TimerEvent: {}
+[12.852189] (-) TimerEvent: {}
+[12.952622] (-) TimerEvent: {}
+[13.053024] (-) TimerEvent: {}
+[13.153350] (-) TimerEvent: {}
+[13.253696] (-) TimerEvent: {}
+[13.354068] (-) TimerEvent: {}
+[13.454563] (-) TimerEvent: {}
+[13.555023] (-) TimerEvent: {}
+[13.655433] (-) TimerEvent: {}
+[13.755895] (-) TimerEvent: {}
+[13.856361] (-) TimerEvent: {}
+[13.956888] (-) TimerEvent: {}
+[14.057369] (-) TimerEvent: {}
+[14.157923] (-) TimerEvent: {}
+[14.258589] (-) TimerEvent: {}
+[14.359157] (-) TimerEvent: {}
+[14.459616] (-) TimerEvent: {}
+[14.560070] (-) TimerEvent: {}
+[14.660496] (-) TimerEvent: {}
+[14.761075] (-) TimerEvent: {}
+[14.861694] (-) TimerEvent: {}
+[14.962147] (-) TimerEvent: {}
+[15.062607] (-) TimerEvent: {}
+[15.163169] (-) TimerEvent: {}
+[15.264311] (-) TimerEvent: {}
+[15.364998] (-) TimerEvent: {}
+[15.465594] (-) TimerEvent: {}
+[15.566142] (-) TimerEvent: {}
+[15.666804] (-) TimerEvent: {}
+[15.767364] (-) TimerEvent: {}
+[15.867850] (-) TimerEvent: {}
+[15.968353] (-) TimerEvent: {}
+[16.068820] (-) TimerEvent: {}
+[16.169321] (-) TimerEvent: {}
+[16.269842] (-) TimerEvent: {}
+[16.370493] (-) TimerEvent: {}
+[16.471019] (-) TimerEvent: {}
+[16.571484] (-) TimerEvent: {}
+[16.672001] (-) TimerEvent: {}
+[16.772376] (-) TimerEvent: {}
+[16.872807] (-) TimerEvent: {}
+[16.973204] (-) TimerEvent: {}
+[17.073708] (-) TimerEvent: {}
+[17.174785] (-) TimerEvent: {}
+[17.275738] (-) TimerEvent: {}
+[17.376416] (-) TimerEvent: {}
+[17.477147] (-) TimerEvent: {}
+[17.577602] (-) TimerEvent: {}
+[17.678043] (-) TimerEvent: {}
+[17.778448] (-) TimerEvent: {}
+[17.878881] (-) TimerEvent: {}
+[17.979435] (-) TimerEvent: {}
+[18.080254] (-) TimerEvent: {}
+[18.180851] (-) TimerEvent: {}
+[18.281421] (-) TimerEvent: {}
+[18.382015] (-) TimerEvent: {}
+[18.482546] (-) TimerEvent: {}
+[18.582975] (-) TimerEvent: {}
+[18.683570] (-) TimerEvent: {}
+[18.784125] (-) TimerEvent: {}
+[18.884702] (-) TimerEvent: {}
+[18.985437] (-) TimerEvent: {}
+[19.085827] (-) TimerEvent: {}
+[19.186234] (-) TimerEvent: {}
+[19.286694] (-) TimerEvent: {}
+[19.387122] (-) TimerEvent: {}
+[19.487534] (-) TimerEvent: {}
+[19.587910] (-) TimerEvent: {}
+[19.688491] (-) TimerEvent: {}
+[19.788939] (-) TimerEvent: {}
+[19.889535] (-) TimerEvent: {}
+[19.990011] (-) TimerEvent: {}
+[20.090398] (-) TimerEvent: {}
+[20.190797] (-) TimerEvent: {}
+[20.291202] (-) TimerEvent: {}
+[20.391681] (-) TimerEvent: {}
+[20.492091] (-) TimerEvent: {}
+[20.592577] (-) TimerEvent: {}
+[20.631911] (control_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.656780] (control_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[20.692758] (-) TimerEvent: {}
+[20.793168] (-) TimerEvent: {}
+[20.893601] (-) TimerEvent: {}
+[20.980520] (control_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[20.980999] (control_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[20.993823] (-) TimerEvent: {}
+[21.094253] (-) TimerEvent: {}
+[21.194727] (-) TimerEvent: {}
+[21.283662] (control_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[21.284849] (control_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[21.294938] (-) TimerEvent: {}
+[21.395584] (-) TimerEvent: {}
+[21.400719] (control_pkg) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[21.495156] (control_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[21.495769] (-) TimerEvent: {}
+[21.593516] (control_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[21.593707] (control_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[21.593761] (control_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[21.594726] (control_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[21.595604] (control_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.595866] (-) TimerEvent: {}
+[21.596468] (control_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[21.598284] (control_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[21.598418] (control_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[21.599480] (control_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.601581] (control_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.611316] (control_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[21.614891] (control_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/catherineschuch/lunabotics_ws/build/control_pkg\n'}
+[21.624722] (control_pkg) CommandEnded: {'returncode': 0}
+[21.627148] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'build'}
+[21.627876] (control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/catherineschuch/lunabotics_ws/build/control_pkg', '--', '-j16', '-l16'], 'cwd': '/home/catherineschuch/lunabotics_ws/build/control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'catherineschuch'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/catherineschuch/lunabotics_ws/install/interfaces_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/catherineschuch'), ('OLDPWD', '/home/catherineschuch/lunabotics_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/catherineschuch/lunabotics_ws/install:/home/catherineschuch/lunabotics-2025-temp/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'catherineschuch'), ('NAME', 'CSchuLaptop'), ('WSL_INTEROP', '/run/WSL/12468_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/catherineschuch/lunabotics_ws/install/control_pkg/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/cathe/AppData/Local/Temp/Mxt242/bin:/mnt/c/windows/:/mnt/c/windows/system32/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/Keysight/IO Libraries Suite/bin:/mnt/c/Program Files/IVI Foundation/VISA/Win64/ktvisa:/mnt/c/Program Files/IVI Foundation/VISA/Win64/bin:/mnt/c/Program Files (x86)/Keysight/IO Libraries Suite/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/ktvisa:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/winnt/agvisa:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/cathe/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/cathe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/cathe/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/cathe/AppData/Local/Box/Box Edit/:/mnt/c/windows/sysnative/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '127.0.0.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/catherineschuch/lunabotics_ws/build/control_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/catherineschuch/lunabotics_ws/install/interfaces_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[21.671730] (control_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drivetrain.dir/src/drivetrain.cpp.o\x1b[0m\n'}
+[21.678965] (control_pkg) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_symlink_control_pkg\n'}
+[21.696147] (-) TimerEvent: {}
+[21.796646] (-) TimerEvent: {}
+[21.897100] (-) TimerEvent: {}
+[21.912075] (control_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[21.912717] (control_pkg) StdoutLine: {'line': b'creating control_pkg.egg-info\n'}
+[21.913148] (control_pkg) StdoutLine: {'line': b'writing control_pkg.egg-info/PKG-INFO\n'}
+[21.913421] (control_pkg) StdoutLine: {'line': b'writing dependency_links to control_pkg.egg-info/dependency_links.txt\n'}
+[21.913531] (control_pkg) StdoutLine: {'line': b'writing top-level names to control_pkg.egg-info/top_level.txt\n'}
+[21.913707] (control_pkg) StdoutLine: {'line': b"writing manifest file 'control_pkg.egg-info/SOURCES.txt'\n"}
+[21.916732] (control_pkg) StdoutLine: {'line': b"reading manifest file 'control_pkg.egg-info/SOURCES.txt'\n"}
+[21.917340] (control_pkg) StdoutLine: {'line': b"writing manifest file 'control_pkg.egg-info/SOURCES.txt'\n"}
+[21.943894] (control_pkg) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_control_pkg_egg\n'}
+[21.997305] (-) TimerEvent: {}
+[22.097926] (-) TimerEvent: {}
+[22.198580] (-) TimerEvent: {}
+[22.298946] (-) TimerEvent: {}
+[22.399356] (-) TimerEvent: {}
+[22.499799] (-) TimerEvent: {}
+[22.600304] (-) TimerEvent: {}
+[22.700754] (-) TimerEvent: {}
+[22.801204] (-) TimerEvent: {}
+[22.901683] (-) TimerEvent: {}
+[23.002419] (-) TimerEvent: {}
+[23.102903] (-) TimerEvent: {}
+[23.203534] (-) TimerEvent: {}
+[23.304183] (-) TimerEvent: {}
+[23.404829] (-) TimerEvent: {}
+[23.505512] (-) TimerEvent: {}
+[23.606413] (-) TimerEvent: {}
+[23.707033] (-) TimerEvent: {}
+[23.807797] (-) TimerEvent: {}
+[23.908602] (-) TimerEvent: {}
+[24.009224] (-) TimerEvent: {}
+[24.109991] (-) TimerEvent: {}
+[24.210983] (-) TimerEvent: {}
+[24.311862] (-) TimerEvent: {}
+[24.412646] (-) TimerEvent: {}
+[24.513650] (-) TimerEvent: {}
+[24.614555] (-) TimerEvent: {}
+[24.715136] (-) TimerEvent: {}
+[24.815906] (-) TimerEvent: {}
+[24.916615] (-) TimerEvent: {}
+[25.017357] (-) TimerEvent: {}
+[25.118139] (-) TimerEvent: {}
+[25.218808] (-) TimerEvent: {}
+[25.319463] (-) TimerEvent: {}
+[25.420218] (-) TimerEvent: {}
+[25.520926] (-) TimerEvent: {}
+[25.621626] (-) TimerEvent: {}
+[25.722230] (-) TimerEvent: {}
+[25.822946] (-) TimerEvent: {}
+[25.923959] (-) TimerEvent: {}
+[26.024534] (-) TimerEvent: {}
+[26.125350] (-) TimerEvent: {}
+[26.226260] (-) TimerEvent: {}
+[26.327075] (-) TimerEvent: {}
+[26.427868] (-) TimerEvent: {}
+[26.529021] (-) TimerEvent: {}
+[26.630072] (-) TimerEvent: {}
+[26.730697] (-) TimerEvent: {}
+[26.831671] (-) TimerEvent: {}
+[26.932694] (-) TimerEvent: {}
+[27.033277] (-) TimerEvent: {}
+[27.134041] (-) TimerEvent: {}
+[27.234851] (-) TimerEvent: {}
+[27.335812] (-) TimerEvent: {}
+[27.436652] (-) TimerEvent: {}
+[27.537453] (-) TimerEvent: {}
+[27.638150] (-) TimerEvent: {}
+[27.738783] (-) TimerEvent: {}
+[27.839520] (-) TimerEvent: {}
+[27.940170] (-) TimerEvent: {}
+[28.040865] (-) TimerEvent: {}
+[28.141479] (-) TimerEvent: {}
+[28.242189] (-) TimerEvent: {}
+[28.342880] (-) TimerEvent: {}
+[28.443762] (-) TimerEvent: {}
+[28.544702] (-) TimerEvent: {}
+[28.645403] (-) TimerEvent: {}
+[28.746099] (-) TimerEvent: {}
+[28.846888] (-) TimerEvent: {}
+[28.947659] (-) TimerEvent: {}
+[29.048380] (-) TimerEvent: {}
+[29.148923] (-) TimerEvent: {}
+[29.249628] (-) TimerEvent: {}
+[29.350396] (-) TimerEvent: {}
+[29.451229] (-) TimerEvent: {}
+[29.552015] (-) TimerEvent: {}
+[29.652810] (-) TimerEvent: {}
+[29.753531] (-) TimerEvent: {}
+[29.854136] (-) TimerEvent: {}
+[29.954723] (-) TimerEvent: {}
+[30.055315] (-) TimerEvent: {}
+[30.155960] (-) TimerEvent: {}
+[30.256622] (-) TimerEvent: {}
+[30.357103] (-) TimerEvent: {}
+[30.457767] (-) TimerEvent: {}
+[30.468584] (control_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drivetrain\x1b[0m\n'}
+[30.557930] (-) TimerEvent: {}
+[30.658419] (-) TimerEvent: {}
+[30.759035] (-) TimerEvent: {}
+[30.859578] (-) TimerEvent: {}
+[30.959971] (-) TimerEvent: {}
+[31.060564] (-) TimerEvent: {}
+[31.143886] (control_pkg) StdoutLine: {'line': b'[100%] Built target drivetrain\n'}
+[31.154981] (control_pkg) CommandEnded: {'returncode': 0}
+[31.156162] (control_pkg) JobProgress: {'identifier': 'control_pkg', 'progress': 'install'}
+[31.160799] (-) TimerEvent: {}
+[31.164390] (control_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/catherineschuch/lunabotics_ws/build/control_pkg'], 'cwd': '/home/catherineschuch/lunabotics_ws/build/control_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'catherineschuch'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/catherineschuch/lunabotics_ws/install/interfaces_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/catherineschuch'), ('OLDPWD', '/home/catherineschuch/lunabotics_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/catherineschuch/lunabotics_ws/install:/home/catherineschuch/lunabotics-2025-temp/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'catherineschuch'), ('NAME', 'CSchuLaptop'), ('WSL_INTEROP', '/run/WSL/12468_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/catherineschuch/lunabotics_ws/install/control_pkg/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/cathe/AppData/Local/Temp/Mxt242/bin:/mnt/c/windows/:/mnt/c/windows/system32/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/Keysight/IO Libraries Suite/bin:/mnt/c/Program Files/IVI Foundation/VISA/Win64/ktvisa:/mnt/c/Program Files/IVI Foundation/VISA/Win64/bin:/mnt/c/Program Files (x86)/Keysight/IO Libraries Suite/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/ktvisa:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/winnt/agvisa:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/cathe/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/cathe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/cathe/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/cathe/AppData/Local/Box/Box Edit/:/mnt/c/windows/sysnative/:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '127.0.0.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/catherineschuch/lunabotics_ws/build/control_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/catherineschuch/lunabotics_ws/install/interfaces_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/catherineschuch/lunabotics_ws/install/interfaces_pkg:/home/catherineschuch/lunabotics_ws/install/webgui_pkg:/home/catherineschuch/lunabotics_ws/install/navigation_pkg:/home/catherineschuch/lunabotics_ws/install/control_pkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[31.170532] (control_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.171019] (control_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[31.171623] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/lib/control_pkg/drivetrain\n'}
+[31.179428] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/pythonpath.sh\n'}
+[31.186924] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/pythonpath.dsv\n'}
+[31.194983] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[31.201778] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[31.210946] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[31.218278] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[31.225534] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg/__init__.py\n'}
+[31.232511] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/lib/control_pkg/testcontrol.py\n'}
+[31.239718] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg\n'}
+[31.247426] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg\n'}
+[31.254315] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/ament_prefix_path.sh\n'}
+[31.260984] (-) TimerEvent: {}
+[31.261657] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/ament_prefix_path.dsv\n'}
+[31.268728] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/path.sh\n'}
+[31.277025] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/environment/path.dsv\n'}
+[31.285256] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/local_setup.bash\n'}
+[31.292508] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/local_setup.sh\n'}
+[31.300035] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/local_setup.zsh\n'}
+[31.307617] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/local_setup.dsv\n'}
+[31.315042] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/package.dsv\n'}
+[31.322197] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/ament_index/resource_index/packages/control_pkg\n'}
+[31.329491] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/cmake/control_pkgConfig.cmake\n'}
+[31.337135] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/cmake/control_pkgConfig-version.cmake\n'}
+[31.345459] (control_pkg) StdoutLine: {'line': b'-- Symlinking: /home/catherineschuch/lunabotics_ws/install/control_pkg/share/control_pkg/package.xml\n'}
+[31.361218] (-) TimerEvent: {}
+[31.395935] (control_pkg) StdoutLine: {'line': b"Listing '/home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg'...\n"}
+[31.396112] (control_pkg) StdoutLine: {'line': b"Compiling '/home/catherineschuch/lunabotics_ws/install/control_pkg/local/lib/python3.10/dist-packages/control_pkg/__init__.py'...\n"}
+[31.402645] (control_pkg) CommandEnded: {'returncode': 0}
+[31.433500] (control_pkg) JobEnded: {'identifier': 'control_pkg', 'rc': 0}
+[31.434627] (-) EventReactorShutdown: {}
