@@ -1,32 +1,30 @@
 from setuptools import setup
+import os
+from glob import glob
 
 package_name = 'lunabotics_nodes'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.0.1',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
-            ['resource/' + package_name]),
+         ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        # Install *all* launch files
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Aakash Bajaj',
-    maintainer_email='abaja5@uic.edu',
-    description='Lunabotics nodes for controlling the robot',
+    maintainer='I'm Stupid',
+    maintainer_email='stupid@stupid.com',
+    description='Example lunabotics node package',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'vision_data_node = lunabotics_nodes.vision_data_node:main',
-            'brain_node = lunabotics_nodes.brain_node:main',
-            'drivetrain_control_node = lunabotics_nodes.drivetrain_control_node:main',
-            'scoop_control_node = lunabotics_nodes.scoop_control_node:main',
-            'status_tracking_node = lunabotics_nodes.status_tracking_node:main',
-            'web_gui_node = lunabotics_nodes.web_gui_node:main',
-            # etc.
+            # add  executables here 
         ],
     },
 )
